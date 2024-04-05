@@ -102,10 +102,10 @@ def length(ls):
 
 print(length([1, 2, 3]))
 
+
 def maximum(ls):
     if len(ls) == 1:
         return 1
     return 1 + maximum(ls[1:])
 
 print(maximum([1, 2, 3]))
-
